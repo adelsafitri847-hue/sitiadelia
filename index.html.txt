@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Siti Adelia Safitri</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 id="typing"></h1>
+  <p>Digital Business | Creative | Future Entrepreneur</p>
+  <a href="#about"><button class="btn">Masuk</button></a>
+</section>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">ADEL</div>
+
+  <div class="menu" id="menu">
+    <a href="#about">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#education">Education</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Kontak</a>
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- PROFILE -->
+<section id="about">
+  <div class="container glass fade-up">
+    <h2 class="title">Profile</h2>
+
+    <p>Saya, <strong>Siti Adelia Safitri</strong>, mahasiswa semester 6 Fakultas Teknologi dan Bisnis, Program Studi Bisnis Digital di Universitas Yatsi Madani.</p>
+
+    <p>Memiliki pengalaman kerja yang variatif, mulai dari manajemen ritel hingga pendidikan anak usia dini.</p>
+
+    <p>Memiliki keterampilan analitis dalam pengelolaan keuangan (Excel), kreativitas dalam pembuatan konten promosi, serta kemampuan UI/UX dan pemahaman dunia digital.</p>
+
+    <p>Aktif organisasi sebagai Ketua Kewirausahaan di masa SMA dan Divisi Humas saat ini.</p>
+
+    <p>Selain itu, saya memiliki minat besar dalam pengembangan bisnis digital dan inovasi teknologi, serta terus mengasah kemampuan dalam menciptakan solusi kreatif yang relevan dengan kebutuhan pasar modern.</p>
+
+    <p>Saya terbiasa bekerja secara mandiri maupun dalam tim, memiliki semangat belajar tinggi, serta mampu beradaptasi dengan cepat di lingkungan yang dinamis dan berkembang.</p>
+
+    <p>Dengan kombinasi pengalaman, keterampilan, dan passion di bidang digital, saya siap berkontribusi secara profesional serta memberikan nilai tambah dalam setiap peluang yang saya jalani.</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2 class="title">Skills</h2>
+
+  <div class="container grid">
+    <div class="card fade-up">
+      <h3>Digital & Business Skills</h3>
+      <ul>
+        <li>Manajemen Bisnis & Kewirausahaan</li>
+        <li>Strategi Digital Marketing</li>
+        <li>Analisis Peluang Pasar</li>
+        <li>Pengelolaan Keuangan (Microsoft Excel)</li>
+      </ul>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Creative & Technology</h3>
+      <ul>
+        <li>UI/UX Design Dasar</li>
+        <li>Pembuatan Konten Promosi</li>
+        <li>Pemahaman Aplikasi Digital & Mobile</li>
+        <li>Dasar Pengembangan Aplikasi (React Native)</li>
+      </ul>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Public Speaking</li>
+        <li>Komunikasi Efektif</li>
+        <li>Kerja Sama Tim</li>
+        <li>Adaptif & Cepat Belajar</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section id="experience">
+  <h2 class="title">Pengalaman</h2>
+
+  <div class="container grid">
+    <div class="card fade-up">
+      <h3>Pengajar Anak Usia Dini</h3>
+      <p><strong>biMBA AIUEO & SMART Education Center</strong></p>
+      <ul>
+        <li>Menyusun materi pembelajaran kreatif</li>
+        <li>Komunikasi efektif dengan orang tua</li>
+        <li>Manajemen kelas aktif</li>
+        <li>Meningkatkan public speaking</li>
+      </ul>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Karyawati Toko Pakaian</h3>
+      <ul>
+        <li>Mengelola stok barang</li>
+        <li>Menata display produk</li>
+        <li>Pelayanan pelanggan</li>
+        <li>Meningkatkan pengalaman belanja</li>
+      </ul>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Wirausaha Kuliner</h3>
+      <ul>
+        <li>Mengelola keuangan (Excel)</li>
+        <li>Strategi promosi</li>
+        <li>Inovasi produk</li>
+        <li>Manajemen bisnis</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2 class="title">Education</h2>
+
+  <div class="container grid">
+
+    <div class="card fade-up">
+      <h3>SD</h3>
+      <p><strong>SDN Pasir Gadung II</strong></p>
+      <p>2011 - 2017</p>
+      <p>Nakbar: Kenangan masa kecil penuh keceriaan, belajar dasar kehidupan, dan persahabatan pertama yang tak terlupakan.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>SMP</h3>
+      <p><strong>SMPN 03 Cikupa</strong></p>
+      <p>2017 - 2020</p>
+      <p> Masa remaja awal yang penuh cerita, mulai menemukan jati diri, serta kebersamaan teman yang penuh warna.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>SMA</h3>
+      <p><strong>SMA N 31 Kab. Tangerang</strong></p>
+      <p>2020 - 2023</p>
+      <p> Masa paling berkesan dengan pengalaman organisasi, perjuangan belajar, dan momen kebersamaan yang tidak akan terulang.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Universitas</h3>
+      <p><strong>Universitas Yatsi Madani</strong></p>
+      <p>2023 - Sekarang</p>
+      <p>Fakultas Teknologi & Bisnis - Bisnis Digital</p>
+      <p> Perjalanan menuju masa depan, membangun mimpi, mengembangkan skill, dan memperluas relasi untuk dunia profesional.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2 class="title">Gallery</h2>
+
+  <div class="container grid">
+    <img src="foto1.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto2.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto3.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto4.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto5.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto6.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto7.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto8.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+    <img src="foto9.jpg" class="gallery fade-up" onclick="openModal(this.src)">
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="myModal" class="modal" onclick="closeModal()">
+  <img id="modalImg">
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="title">Kontak</h2>
+  <div class="container contact">
+    <a href="https://wa.me/62895327715278">📱 WhatsApp</a>
+    <a href="#">📧 Email: adelsafitri847@gmail.com</a>
+    <a href="https://instagram.com/sft_adl">📷 Instagram</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Siti Adelia Safitri
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
